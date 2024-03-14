@@ -21,7 +21,7 @@ class PowerFailurePlugin(octoprint.plugin.TemplatePlugin,
         super(PowerFailurePlugin, self).__init__()
         self.will_print = ""
         self.datafolder = None
-        self.datafile = "powerfailure_recovery.json"
+        self.datafile = "powerfailureec_recovery.json"
         self.recovery_path = None
         #various things we can track while watching the queue
         self.extrusion = None
@@ -400,10 +400,10 @@ class PowerFailurePlugin(octoprint.plugin.TemplatePlugin,
         )
 
 
-__plugin_name__ = "Power Failure Recovery"
-__plugin_identifier = "powerfailure"
+__plugin_name__ = "Power Failure Recovery EC"
+__plugin_identifier = "powerfailureec"
 __plugin_pythoncompat__ = ">=2.7,<4"
-__plugin_version__ = "1.2.1"
+__plugin_version__ = "1.2.1-ec"
 __plugin_description__ = "Recovers a print after a power failure."
 __plugin_implementation__ = PowerFailurePlugin()
 
