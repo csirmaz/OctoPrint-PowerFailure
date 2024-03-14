@@ -16,4 +16,4 @@ This plugin attempts to recover a print after a power failure or printer disconn
 Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
 or manually using this URL:
 
-    https://github.com/pablogventura/OctoPrint-PowerFailure/archive/master.zip
+    https://github.com/csirmaz/OctoPrint-PowerFailure/archive/master.zip
